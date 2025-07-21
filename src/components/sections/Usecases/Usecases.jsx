@@ -1,8 +1,6 @@
 "use client";
 import UsecaseCard from "../../ui/UsecaseCard";
-import "swiper/css";
-import "swiper/css/navigation";
-import "swiper/css/pagination";
+
 const usecases = [
   {
     title: "Smart Triage",
@@ -66,21 +64,21 @@ const UseCases = () => {
             title="Smart Triage"
             label="Healthcare"
             description="Discover how machine learning models are reducing diagnosis."
-            imageUrl="src\assets\illustrations\Doctors.svg"
+            imageUrl="Doctors.svg"
           />
           <UsecaseCard
             color="#E3A500"
             title="AI Chatbot"
             label="Customer Service"
             description="Engage customers 24/7 with our intelligent conversational AI."
-            imageUrl="src\assets\illustrations\Creator.svg"
+            imageUrl="Creator.svg"
           />
           <UsecaseCard
             color="#F55D33"
             title="Predictive Analytics"
             label="Operations"
             description="Forecast trends and optimize operations proactively using data."
-            imageUrl="src\assets\illustrations\Setup.svg"
+            imageUrl="Setup.svg"
           />
         </div>
       </div>
