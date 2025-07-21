@@ -1,0 +1,26 @@
+.hero-section {
+  position: relative;
+    z-index: 1;
+  /* 1. semi-transparent white to create the “frosted glass” */
+  background: rgba(255, 255, 255, 0.2);
+  /* 2. apply the backdrop blur */
+  backdrop-filter: blur(20px);
+  /* for Safari support */
+  overflow: hidden;
+}
+
+.hero-section::before {
+  content: "";
+  pointer-events: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 2;
+  /* use a small, repeating noise PNG or SVG */
+  background-image: url("../assets/noise.png");
+  opacity: 0.3;
+  /* scale up the texture so it’s subtle */
+  background-size: 200px 200px;
+}
