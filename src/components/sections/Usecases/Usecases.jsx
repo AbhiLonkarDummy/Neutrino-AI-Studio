@@ -7,7 +7,7 @@ const usecases = [
     label: "Healthcare",
     description:
       "Discover how machine learning models are reducing diagnosis time.",
-    imageUrl: "src/assets/illustrations/Doctors.svg",
+    imageUrl: "Doctors.svg",
     href: "/use-case/healthcare",
   },
   {
@@ -15,7 +15,7 @@ const usecases = [
     label: "Customer Service",
     description:
       "Engage customers 24/7 with our intelligent conversational AI.",
-    imageUrl: "src/assets/illustrations/Setup.svg",
+    imageUrl: "Setup.svg",
     href: "/use-case/chatbot",
   },
   {
