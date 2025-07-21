@@ -1,15 +1,14 @@
 "use client";
 import UsecaseCard from "../../ui/UsecaseCard";
-import "swiper/css";
-import "swiper/css/navigation";
-import "swiper/css/pagination";
+import Doctor from "src/assets/illustrations/Doctors.svg";
+
 const usecases = [
   {
     title: "Smart Triage",
     label: "Healthcare",
     description:
       "Discover how machine learning models are reducing diagnosis time.",
-    imageUrl: "src/assets/illustrations/Doctors.svg",
+    imageUrl: {Doctor},
     href: "/use-case/healthcare",
   },
   {
